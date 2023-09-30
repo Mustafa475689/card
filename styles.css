@@ -1,0 +1,35 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+label{
+    display: flex;
+}
+
+
+/* --- style for center line --- */
+
+.line {
+    
+    width: 10px;
+    height: 610px;
+    background-color: rgb(43, 226, 58);
+    margin-left: 550px;
+    margin-top: -540px;
+    position: absolute;
+}
+
+/* --- style for Show cards --- */
+
+.op-box {
+    margin-left: 600px;
+    margin-top: -540px;
+}
+
+#regester {
+    border: 2px;
+    border-style: solid;
+    width: 40%;
+    height: 80%;
+}
+
