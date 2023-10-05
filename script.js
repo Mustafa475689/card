@@ -19,11 +19,10 @@ let radioButton = document.querySelector('input[type="radio"]:checked');
 let skill = [];
  document.querySelectorAll('input[type="checkbox"]').forEach(item => {
 if(item.checked === true){
-    skill[item.value] = true;
-}else if(item.checked === false){
-    skill[item.value] = false;
-    
+   skill.push(item.value)
 }
+
+
 
 });
 
@@ -39,9 +38,7 @@ console.log(name)
                                                     <p class-"web">${website}</p>                                   
                                                     <img class="img" src="${image}">
                                                     <p class-"radio">${radioButton.value}</p>
-                                                    <p class-"checkbox">${skill}</p>
+                                                    <p class-"checkbox">${[...skill]}</p>
                                                       `                                      
 
 })
-
-
