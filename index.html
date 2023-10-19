@@ -1,52 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" class="css">
 </head>
+
 <body>
     <div id="reg-container">
         <div id="regester">
-            <div class="register">
-                <label for="name">
-                    <p>Name:</p>
-                    <input type="text" name="name" id="reg-name">
-                </label>
-                <br>
+            <div id="style-input">
+            <div class="add-register">
+                <input type="text" name="name" id="reg-name" class="style-input">
             </div>
-            <div class="register">
-                <label for="email">
-                    <p>Email:</p>
-                    <input type="email" name="email" id="reg-email">
-                </label>
-                <br>
+            <div class="add-register">
+                <input type="email" name="email" id="reg-email" class="style-input">
             </div>
-            <div class="register">
-                <label for="link">
-                    <p>Website:</p>
-                    <input type="url" name="link" id="reg-link">
-                </label>
-                <br>
+            <div class="add-register">
+                <input type="url" name="link" id="reg-link" class="style-input">
             </div>
-            <div class="register">
-                <label for="img">
-                    <p>Image:</p>
-                    <input type="url" name="img" id="reg-img">
-                </label>
-                <br>
+            <div class="add-register">
+                <input type="url" name="img" id="reg-img" class="style-input">
             </div>
+        </div>
             <!-- Gender -->
             <div class="register">
                 <p>Gender:</p>
                 <label for="gender">
                     <input type="radio" value="male" name="gender" id="reg-male">
-                    Male
+                    <p>Male</p>
                 </label>
                 <label for="gender">
                     <input type="radio" value="female" name="gender" id="reg-female">
-                    Female
+                   <p>Female</p>
                 </label>
             </div>
             <br>
@@ -55,15 +43,15 @@
                 <p>Skills:</p>
                 <label for="reg-html">
                     <input type="checkbox" name="skill" id="reg-html" value="HTML5">
-                    HTML
+                    <p>HTML</p>
                 </label>
                 <label for="reg-css">
-                    <input type="checkbox" name="skill" id="reg-css"value="CSS" >
-                    CSS
+                    <input type="checkbox" name="skill" id="reg-css" value="CSS">
+                    <p>CSS</p>
                 </label>
                 <label for="reg-js">
                     <input type="checkbox" name="skill" id="reg-js" value="JAVASCRIPT">
-                    JAVASCRIPT
+                   <p>JAVASCRIPT</p>
                 </label>
             </div>
             <br>
@@ -84,4 +72,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
